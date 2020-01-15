@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form action="#" method="post" id="form1">
+
+            <div id="conectado">
+                <p id="bienvenido"></p>
+                <input type="button" id="salir" value="Cerrar sesión">
+            </div>
+
+            <div id="login">
+
+                <fieldset>
+
+
+                    <h1>Login</h1>
+                    <p id="registrado">Te has registrado correctamente</p>
+                    <table>
+                        <tr>
+                            <td><label for="usuario">Usuario*:</label></td>
+                            <td><input type="text" id="log" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" placeholder="email o móvil*" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="contraseña">Contraseña*:</label></td>
+                            <td><input type="password" id="pass" pattern="^[A-Z]+[a-z]*[0-9]+\W+" placeholder="contraseña*" required></td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <center>
+                        <input type="button" value="Mostrar/ocultar contraseña" id="mostrar">
+                        <br><br>
+                        <a id="recordar"><input type="button" id="recordar1" value="Recordar contraseña"> /</a>
+                        <a id="registrar"><input type="button" id="registrar1" value="Registrarme"></a>
+                        <br><br>
+                        <input type="submit" id="iniciarSesion" value="Iniciar sesión">
+
+                    </center>
+                </fieldset>
+            </div>
+        </form>
+
+        <form action="#" method="post" id="form2">
+            <div id="registro">
+                <fieldset>
+                    <h1>Registro</h1>
+                    <table>
+                        <tr>
+                            <td><label for="nombre">Nombre*:</label></td>
+                            <td><input type="text" id="nombre" placeholder="nombre*" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="apellidos">Apellidos*:</label></td>
+                            <td><input type="text" id="apellidos" placeholder="apellidos*" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">Email o móvil*:</label></td>
+                            <td><input type="text" id="emailMovil" placeholder="email o móvil*" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="fechaNacimiento">Fecha de nacimiento:</label></td>
+                            <td><input type="date" id="fecha" placeholder="fecha de nacimiento"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="contraseña">Contraseña*:</label></td>
+                            <td><input type="password" id="pass1" placeholder="contraseña*" pattern="[A-Z]+[a-z]*[0-9]+\W+" minlength="8" title="Mínimo 8 caracteres, empieza por una mayuscula y termina con un digito seguido de caracter especial" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="repetirContraseña">Repetir contraseña*:</label></td>
+                            <td><input type="password" id="pass2" pattern="[A-Z]+[a-z]*[0-9]+\W+" placeholder="Repetir contraseña*" required></td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <input type="button" id="volver" value="Volver">
+                    <input type="submit" id="registrar2" value="Registrarme">
+
+
+                </fieldset>
+            </div>
+        </form>
+
+        <form action="#" method="post" id="form3">
+            <div id="recordarContrasena">
+                <fieldset>
+                    <h1>Recordar Contraseña</h1>
+                    <div>
+                        <input type="email" id="emailDeContraseña" pattern="^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$" placeholder="Introduce tu email" required>
+                    </div>
+                    <br>
+                    <label for="">Luego revisa tu email y sigue las instrucciones para recuperarla</label>
+                    <br><br>
+                    <input type="button" id="volver2" value="Volver">
+                    <input type="submit" id="enviar2" value="Enviar">
+                </fieldset>
+            </div>
+        </form>
+    </center>
+    <script type='text/javascript' src="form.js"></script>
+</body></html>

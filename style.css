@@ -1,0 +1,45 @@
+body {
+    background-color: darkslategrey;
+    color: snow;
+    font-family: monospace;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: monospace;
+}
+
+#registro, #recordarContrasena{
+    display: none;
+}
+
+#mostrar {
+    font-family: monospace;
+}
+
+#recordar {
+    color: indianred;
+}
+
+#registrar, #registrar1 {
+    background-color: darkgoldenrod;
+}
+
+#registrar2, #iniciarSesion, #enviar2 {
+    background-color: yellowgreen;
+    font-family: monospace;
+}
+
+#volver, #volver2, #recordar1 {
+    background-color: brown;
+    font-family: monospace;
+}
+
+#registrado{
+    color: greenyellow;
+    display: none;
+}
+
+#conectado{
+    display: none;
+}
