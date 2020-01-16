@@ -12,6 +12,18 @@ El segundo corresponde al registro
 
 ![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/registro.PNG)
 
-Éste dispone de un input text para el nombre, otro para los apellidos, para el email o móvil y todos obligatorios a través de la etiqueta required. Además, aparece tambien un input date para la fecha de nacimiento, esta no es obligatoria sino opcional, he realizado uin evento para cuando hacemos foto en el campo sea un input date y cuando quitamos el foto sea tipo text y así tenga el mismo estilo de las demás. Se dispone tambien de dos input password tanto para ingresar una contraseña como para repetirla y confirmarla, ambos campos obligatorios. He creado un evento donde si las contraseñas no coinciden saldra un mensaje indicandolo y si son iguales salta un mensaje de que esta correcto. finalmente aparecen 2 input, uno tipo button para volver a la pagina de login y otro tipo submit el cual a través de un evento una vez rellenados los campos obligatorios comprueba si las dos contraseñas con correctas y si es así muestra el mensaje de que todo está correcto, crea dos cookies una para el usuario con el valor del input email o móvil y otra para contraseña con el valor del primer input password y nos devuelve al login. Éste aparece nuevamente con un mensaje de "Te has registrado correctamente".
+Éste dispone de un input text para el nombre, otro para los apellidos, para el email o móvil y todos obligatorios a través de la etiqueta required. Además, aparece tambien un input date para la fecha de nacimiento, esta no es obligatoria sino opcional, he realizado un evento para cuando hacemos foco en el campo sea un input date y cuando quitamos el foco sea tipo text y así tenga el mismo estilo de las demás. Se dispone tambien de dos input password tanto para ingresar una contraseña como para repetirla y confirmarla, ambos campos obligatorios. Finalmente aparecen 2 input, uno tipo button para volver a la pagina de login y otro tipo submit el cual a través de un evento una vez rellenados los campos obligatorios comprueba si las dos contraseñas con correctas, si no lo son salta un mensaje indicándolo
+
+![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/passwrong.PNG)
+
+y si es así muestra el mensaje de que todo está correcto
+
+
+![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/todoCorrecto.PNG)
+
+Crea dos cookies una para el usuario con el valor del input email o móvil y otra para contraseña con el valor del primer input password y nos devuelve al login. Éste aparece nuevamente con un mensaje de "Te has registrado correctamente".
+
+
+![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/registrado.PNG)
 
 
