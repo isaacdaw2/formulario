@@ -1,6 +1,6 @@
 # Formulario
 
-El formulario creado consta de tres form: uno que comprende el login, otro que contiene el registro y finalmente uno para recordar contraseña si es necesario. 
+El formulario creado consta de cuatro partes: una que comprende el login, otra que contiene el registro, otra para recordar contraseña si es necesario y finalmente una vez logado un mensaje de bienvenida.
 
 En el primero, que consiste en el login
 
@@ -8,7 +8,7 @@ En el primero, que consiste en el login
 
 Tenemos varias opciones: un input tipo text para escribir usuario ya sea móvil o email, dicho campo es obligatorio y otro tipo password para contraseña, mismamente obligatorio. Este form también dispone de un botón para mostrar u ocultar la contraseña. Además, tiene un botón para recordar contraseña que redirige al form correspondiente y otro para registarse que te guia al form de alta de usuario. Finalmente en este form de login, tenemos el botón de iniciar sesión, el cual una vez completados los campos correctamente nos reenvia a otra página de bienvenida.
 
-El segundo corresponde al registro
+El segundo corresponde al registro, llegamos a aquí al pulsar al boton "Registrarme" del login
 
 ![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/registro.PNG)
 
@@ -26,4 +26,12 @@ Crea dos cookies una para el usuario con el valor del input email o móvil y otr
 
 ![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/registrado.PNG)
 
+Al pulsar en el botón "Recordar contraseña" vamos a la tercera parte, que es para recordar la contraseña.
 
+![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/recuperar.PNG)
+
+Aquí se dispone de un campo input tipo email para colocar un correo electrónico, el cual es obligatorio, un input button para volver al login y un input submit que también redirije al login una vez rellenado el email.
+
+y por último tenemos la parte de bienvenida, a la cual se accede registrandose, rellenando usuario y contraseña del login y pulsando al botón "Iniciar sesión".
+
+![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/bienvenido.PNG)
