@@ -35,3 +35,5 @@ Aquí se dispone de un campo input tipo email para colocar un correo electrónic
 y por último tenemos la parte de bienvenida, a la cual se accede registrandose, rellenando usuario y contraseña del login y pulsando al botón "Iniciar sesión".
 
 ![alt text](https://github.com/isaacdaw2/formulario/blob/master/capturas/bienvenido.PNG)
+
+Aquí nos muestra un mensaje con el nombre y apellidos rellenados en la parte del registro además de boton de "Cerrar sesión" a través del cual al pulsarlo se borran las cookies creadas y vuelve a la parte del login.
