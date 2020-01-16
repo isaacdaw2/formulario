@@ -79,22 +79,28 @@ mostrar.addEventListener("click", function () {
 });
 
 registrar2.addEventListener("click", function () {
+    
     if (nombre.value && apellidos.value && emailMovil.value && pass1.value && pass2.value) {
-
-        if (pass1.value != pass2.value) {
-            registrar2.type = "button";
+        var p1 = pass1.value;
+        var p2 = pass2.value; 
+        
+        if (p1 !== p2) {
             alert("Las contraseñas deben de coincidir");
+            
         } else {
+            //registrar2.type = "button";
             alert("Todo está correcto");
+            
             registrado.style.display = "block";
-            login.style.display = "block";
-            registro.style.display = "none";
-
+            login.style.display = "block";             
+            registro.style.display = "none";     
 
             setCookie("cookieUsuario", emailMovil.value, 1);
             setCookie("cookiePass", pass1.value, 1);
+            
         }
-    }
+        
+    }  
 
 });
 
