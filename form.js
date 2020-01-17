@@ -109,7 +109,6 @@ iniciarSesion.addEventListener("click", function () {
     var b = getCookie("cookiePass");  
     
     if (usuario.value && passwordLogin.value && (usuario.value === a && passwordLogin.value === b)) {
-        iniciarSesion.type = "button";
         
         conectado.style.display = "block";
         login.style.display = "none";
